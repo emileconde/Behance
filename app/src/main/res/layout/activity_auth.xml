@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/auth_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.ImageDisplayActivity"
+    android:background="@drawable/gradient_list"
+    >
+
+    <FrameLayout
+        android:id="@+id/auth_fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible"
+        />
+
+    <ProgressBar
+        android:id="@+id/auth_progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/btn_google_log_in"
+        app:layout_constraintEnd_toEndOf="@id/btn_google_log_in"
+        app:layout_constraintTop_toTopOf="@id/btn_google_log_in"
+        app:layout_constraintBottom_toBottomOf="@id/btn_google_log_in"
+        android:background="@android:color/white"
+        android:visibility="invisible"
+        />
+
+    <Button
+        android:id="@+id/btn_facebook_log_in"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/facebook_button_style"
+        android:text="@string/btn_facebook"
+        android:textColor="@android:color/white"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toTopOf="@+id/btn_google_log_in"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_google_log_in"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/btn_google"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toTopOf="@+id/btn_email_sign_up"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@drawable/google_button_style"
+        />
+
+    <Button
+        android:id="@+id/btn_email_sign_up"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/sign_up_button_style"
+        android:text="@string/btn_email"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toTopOf="@+id/tv_log_in"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_log_in"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="64dp"
+        android:text="@string/btn_login"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        android:gravity="center"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

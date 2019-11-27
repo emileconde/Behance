@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "704546885120",
+    "firebase_url": "https://behance-7a8b0.firebaseio.com",
+    "project_id": "behance-7a8b0",
+    "storage_bucket": "behance-7a8b0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:704546885120:android:79bfc1c37d8c5fa1b992e5",
+        "android_client_info": {
+          "package_name": "com.example.android.conde.com.behance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "704546885120-p3knq4hb1l8olfmteaefhnnutppk4dh2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.conde.com.behance",
+            "certificate_hash": "ef932592f45ce73ada030b2d88e7fabea6267091"
+          }
+        },
+        {
+          "client_id": "704546885120-fsukl43re79mhaamkgdqrfaco3bqrva0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXdopK4ljEF4-9nXJlhcknrLGjeXhXPOY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "704546885120-fsukl43re79mhaamkgdqrfaco3bqrva0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
